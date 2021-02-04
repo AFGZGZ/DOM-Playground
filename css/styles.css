@@ -1,0 +1,36 @@
+.buttons-1{
+  text-align: center;
+  margin: 30px 0;
+}
+.code-block{
+  font-size: 1.5rem;
+  padding: 10px;
+  border: solid 1px black;
+  margin: 10px;
+}
+#object{
+  font-size: 5rem;
+}
+.object-div{
+  text-align: center;
+}
+.object-text-div{
+  font-size: 1.5rem;
+  text-align: left;
+  display: inline-block;
+  margin-left: 50px;
+}
+.function-div{
+  margin: 30px 0;
+}
+.icon{
+  padding: 20px;
+}
+.icon-text{
+  display: inline-flex;
+  margin-left: 20px;
+}
+.main{
+  width: 70%;
+  margin:auto;
+}
