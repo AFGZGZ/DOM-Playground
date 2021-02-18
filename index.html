@@ -27,9 +27,6 @@
       <button class="btn-smaller" type="button" name="big">SMALLER</button>
       <button id="btn-change" type="button" name="change">CHANGE OBJECT</button>
       <button id="btn-rotate" type="button" name="red">ROTATE</button>
-      <button id="btn-random"type="button" name="blue">RANDOM COLOR</button>
-      <button type="button" name="big">?</button>
-      <button class="btn-smaller" type="button" name="big">?</button>
     </div>
     <div class="function-div">
       <p id="code-block" class="code-block">Code</p>
@@ -41,21 +38,21 @@
           <h1>GENERATE AN OBJECT WITH FORM</h1>
           <div class="objects">
             <p>Pick an object:</p>
-            <input type="radio" id="bug" name="obj-f" value="bug">
+            <input class="obj-gen" type="radio" id="bug" name="obj-f" value="bug">
             <label for="bug">BUG</label><br>
-            <input type="radio" id="ball" name="obj-f" value="ball">
+            <input class="obj-gen" type="radio" id="ball" name="obj-f" value="basketball-ball">
             <label for="ball">BALL</label><br>
-            <input type="radio" id="bomb" name="obj-f" value="bomb">
+            <input class="obj-gen" type="radio" id="bomb" name="obj-f" value="bomb">
             <label for="bomb">BOMB</label><br>
-            <input type="radio" id="bone" name="obj-f" value="bone">
+            <input class="obj-gen" type="radio" id="bone" name="obj-f" value="bone">
             <label for="bone">BONE</label><br>
-            <input type="radio" id="bus" name="obj-f" value="bus">
+            <input class="obj-gen" type="radio" id="bus" name="obj-f" value="bus">
             <label for="bus">BUS</label><br>
           </div>
         </div>
         <div class="size">
           <p>Choose a size between 1 trough 10:</p>
-          <input type="number" name="" value="">
+          <input id="size-gen" type="number" name="size" value="">
         </div>
         <div class="colors">
           <p>Pick a color:</p>
@@ -66,10 +63,9 @@
           <input type="radio" id="blue" name="color-f" value="blue">
           <label for="blue">BLUE</label>
         </div>
-        <input type="submit" name="submit" value="GENERATE OBJECT">
+        <button id="generate-btn" type="button" name="button">GENERATE OBJECT</button>
       </form>
-      <div class="object-div">
-        <i id="object" class="fas fa-bug"></i>
+      <div id="object-div" class="object-div">
         </div>
     </div>
   </div>
